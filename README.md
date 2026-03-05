@@ -9,7 +9,7 @@ Azure AI Content Understanding uses AI models to analyze documents and extract i
 | **Completion** | Powers document analysis, field extraction, and content understanding | `gpt-4.1`, `gpt-4.1-mini`, `gpt-4o` |
 | **Embedding** | Generates vector representations for semantic search and similarity | `text-embedding-3-large` |
 
-*NOTE*: Studio UI only show global deployment type. `gpt-4.1`, `gpt-4.1-mini` are required model for some pre-built analyzers which can not be changed. We can only change the deployment type of these model from global to regional based. 
+*NOTE*: Studio UI only show global deployment type. `gpt-4.1`, `gpt-4.1-mini` are required model for some pre-built analyzers which can not be changed. We can only change the deployment type of these models from global to regional based. 
  
 
 ## How Model Configuration Works
@@ -95,5 +95,6 @@ The analyzer can only reference models that have already been registered in the 
 │  └──────────────────────────────────────────┘   │
 └─────────────────────────────────────────────────┘
 ```
+
 
 
